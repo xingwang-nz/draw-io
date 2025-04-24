@@ -120,15 +120,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mm62io1ve5PJXhFcudEz-14" value="DynamoDB VPC Endpoint" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.endpoints;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="488" y="940" width="69" height="72" as="geometry" />
+          <mxGeometry x="616.5" y="937" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mm62io1ve5PJXhFcudEz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jYs0n431p8MNBjK6Ho2J-17" target="mm62io1ve5PJXhFcudEz-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mm62io1ve5PJXhFcudEz-16" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
-          <mxGeometry x="612" y="1050" width="78" height="78" as="geometry" />
+          <mxGeometry x="677" y="1091" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="mm62io1ve5PJXhFcudEz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mm62io1ve5PJXhFcudEz-14" target="mm62io1ve5PJXhFcudEz-16">
+        <mxCell id="mm62io1ve5PJXhFcudEz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mm62io1ve5PJXhFcudEz-14" target="mm62io1ve5PJXhFcudEz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm62io1ve5PJXhFcudEz-18" value="EventBridge" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1091" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mm62io1ve5PJXhFcudEz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mm62io1ve5PJXhFcudEz-19" target="mm62io1ve5PJXhFcudEz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm62io1ve5PJXhFcudEz-19" value="VPC EventBridge&lt;br&gt;Interface Endpoint" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoints;" vertex="1" parent="1">
+          <mxGeometry x="336" y="920" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mm62io1ve5PJXhFcudEz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jYs0n431p8MNBjK6Ho2J-17" target="mm62io1ve5PJXhFcudEz-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
